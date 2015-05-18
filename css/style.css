@@ -1,0 +1,24 @@
+/* line 1, ../scss/style.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+/* line 8, ../scss/style.scss */
+text {
+  font: 10px sans-serif;
+}
+
+/* line 12, ../scss/style.scss */
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/* line 18, ../scss/style.scss */
+input {
+  margin: 0 7px;
+}
