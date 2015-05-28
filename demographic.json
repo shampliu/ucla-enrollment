@@ -1,0 +1,209 @@
+{
+  "name": "Undergraduate Freshman Demographic",
+  "results": {
+    "2014": [
+      {
+        "American Indian or Alaskan Native": "110",
+        "Asian or Pacific Islander": "8,082",
+        "Black Non-Hispanic": "916",
+        "Foreign": "2,704",
+        "Hispanic": "4,222",
+        "Total Domestic": "19,921",
+        "Unstated, Unknown, Other": "691",
+        "White Non-Hispanic": "5,900",
+      }
+    ],
+     "2013": [
+      {
+        "American Indian or Alaskan Native": "116",
+        "Asian or Pacific Islander": "7,951",
+        "Black Non-Hispanic": "848",
+        "Foreign": "2,384",
+        "Hispanic": "3,864",
+        "Total Domestic": "19,282",
+        "Unstated, Unknown, Other": "722",
+        "White Non-Hispanic": "5,781",
+      }
+    ],
+     "2012": [
+      {
+        "American Indian or Alaskan Native": "107",
+        "Asian or Pacific Islander": "7,777",
+        "Black Non-Hispanic": "817",
+        "Foreign": "1,945",
+        "Hispanic": "3,563",
+        "Total Domestic": "18,667",
+        "Unstated, Unknown, Other": "639",
+        "White Non-Hispanic": "5,764",
+      }
+    ],
+     "2011": [
+      {
+        "American Indian or Alaskan Native": "92",
+        "Asian or Pacific Islander": "7,798",
+        "Black Non-Hispanic": "838",
+        "Foreign": "1,101",
+        "Hispanic": "3,284",
+        "Total Domestic": "18,711",
+        "Unstated, Unknown, Other": "633",
+        "White Non-Hispanic": "6,066",
+      }
+    ],
+     "2010": [
+      {
+        "American Indian or Alaskan Native": "77",
+        "Asian or Pacific Islander": "7,537",
+        "Black Non-Hispanic": "814",
+        "Foreign": "612",
+        "Hispanic": "2,909",
+        "Total Domestic": "17,903",
+        "Unstated, Unknown, Other": "654",
+        "White Non-Hispanic": "5,912",
+      }
+    ],
+     "2009": [
+      {
+        "American Indian or Alaskan Native": "69",
+        "Asian or Pacific Islander": "7,934",
+        "Black Non-Hispanic": "737",
+        "Foreign": "420",
+        "Hispanic": "2,873",
+        "Total Domestic": "18,458",
+        "Unstated, Unknown, Other": "688",
+        "White Non-Hispanic": "6,157",
+      }
+    ],
+     "2008": [
+      {
+        "American Indian or Alaskan Native": "56",
+        "Asian or Pacific Islander": "7,897",
+        "Black Non-Hispanic": "668",
+        "Foreign": "395",
+        "Hispanic": "2,728",
+        "Total Domestic": "18,315",
+        "Unstated, Unknown, Other": "740",
+        "White Non-Hispanic": "6,226",
+      }
+    ],
+     "2007": [
+      {
+        "American Indian or Alaskan Native": "59",
+        "Asian or Pacific Islander": "7,756",
+        "Black Non-Hispanic": "592",
+        "Foreign": "415",
+        "Hispanic": "2,560",
+        "Total Domestic": "17,651",
+        "Unstated, Unknown, Other": "727",
+        "White Non-Hispanic": "5,957",
+      }
+    ],
+     "2006": [
+      {
+        "American Indian or Alaskan Native": "64",
+        "Asian or Pacific Islander": "7,694",
+        "Black Non-Hispanic": "520",
+        "Foreign": "382",
+        "Hispanic": "2,551",
+        "Total Domestic": "17,490",
+        "Unstated, Unknown, Other": "767",
+        "White Non-Hispanic": "5,894",
+      }
+    ],
+     "2005": [
+      {
+        "American Indian or Alaskan Native": "64",
+        "Asian or Pacific Islander": "7,331",
+        "Black Non-Hispanic": "573",
+        "Foreign": "290",
+        "Hispanic": "2,529",
+        "Total Domestic": "17,023",
+        "Unstated, Unknown, Other": "870",
+        "White Non-Hispanic": "5,656",
+      }
+    ],
+     "2004": [
+      {
+        "American Indian or Alaskan Native": "61",
+        "Asian or Pacific Islander": "7,287",
+        "Black Non-Hispanic": "591",
+        "Foreign": "277",
+        "Hispanic": "2,494",
+        "Total Domestic": "16,945",
+        "Unstated, Unknown, Other": "969",
+        "White Non-Hispanic": "5,543",
+      }
+    ],
+     "2003": [
+      {
+        "American Indian or Alaskan Native": "110",
+        "Asian or Pacific Islander": "8,082",
+        "Black Non-Hispanic": "916",
+        "Foreign": "2,704",
+        "Hispanic": "4,222",
+        "Total Domestic": "19,921",
+        "Unstated, Unknown, Other": "691",
+        "White Non-Hispanic": "5,900",
+      }
+    ],
+     "2002": [
+      {
+        "American Indian or Alaskan Native": "110",
+        "Asian or Pacific Islander": "8,082",
+        "Black Non-Hispanic": "916",
+        "Foreign": "2,704",
+        "Hispanic": "4,222",
+        "Total Domestic": "19,921",
+        "Unstated, Unknown, Other": "691",
+        "White Non-Hispanic": "5,900",
+      }
+    ],
+     "2001": [
+      {
+        "American Indian or Alaskan Native": "110",
+        "Asian or Pacific Islander": "8,082",
+        "Black Non-Hispanic": "916",
+        "Foreign": "2,704",
+        "Hispanic": "4,222",
+        "Total Domestic": "19,921",
+        "Unstated, Unknown, Other": "691",
+        "White Non-Hispanic": "5,900",
+      }
+    ],
+     "2000": [
+      {
+        "American Indian or Alaskan Native": "110",
+        "Asian or Pacific Islander": "8,082",
+        "Black Non-Hispanic": "916",
+        "Foreign": "2,704",
+        "Hispanic": "4,222",
+        "Total Domestic": "19,921",
+        "Unstated, Unknown, Other": "691",
+        "White Non-Hispanic": "5,900",
+      }
+    ],
+     "1999": [
+      {
+        "American Indian or Alaskan Native": "110",
+        "Asian or Pacific Islander": "8,082",
+        "Black Non-Hispanic": "916",
+        "Foreign": "2,704",
+        "Hispanic": "4,222",
+        "Total Domestic": "19,921",
+        "Unstated, Unknown, Other": "691",
+        "White Non-Hispanic": "5,900",
+      }
+    ],
+     "1998": [
+      {
+        "American Indian or Alaskan Native": "110",
+        "Asian or Pacific Islander": "8,082",
+        "Black Non-Hispanic": "916",
+        "Foreign": "2,704",
+        "Hispanic": "4,222",
+        "Total Domestic": "19,921",
+        "Unstated, Unknown, Other": "691",
+        "White Non-Hispanic": "5,900",
+      }
+    ]
+  }
+}
