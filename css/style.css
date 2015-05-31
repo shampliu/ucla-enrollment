@@ -3,22 +3,90 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: auto;
   position: relative;
-  width: 960px;
+  font-weight: 300;
 }
 
 /* line 8, ../scss/style.scss */
-text {
+.legend {
+  font-size: 12px;
+}
+
+/* line 11, ../scss/style.scss */
+rect {
+  stroke-width: 2;
+}
+
+/* line 15, ../scss/style.scss */
+#pie-chart {
+  background-color: #ffffff;
+  /*border: 1px solid gray;*/
   font: 10px sans-serif;
+  height: 400px;
+  text-shadow: none;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 25, ../scss/style.scss */
+#pie-chart .total {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 29, ../scss/style.scss */
+#pie-chart .units {
+  fill: gray;
+  font-size: 12px;
+}
+/* line 34, ../scss/style.scss */
+#pie-chart .label {
+  fill: #CCC;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 40, ../scss/style.scss */
+#pie-chart .value {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-/* line 12, ../scss/style.scss */
-form {
+/* line 46, ../scss/style.scss */
+#slider label {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  width: 20px;
+  /*margin-left: -20px;*/
+  margin-left: -12px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 18, ../scss/style.scss */
-input {
-  margin: 0 7px;
+/* line 57, ../scss/style.scss */
+.tooltip {
+  position: absolute;
+  /*width: 100px; */
+  height: 30px;
+  padding: 6px;
+  font: 12px sans-serif;
+  /*background: green; */
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  /*border-radius: 8px;*/
+  color: black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+/* line 72, ../scss/style.scss */
+.tooltip .left {
+  display: inline-block;
+  float: left;
+  padding-right: 5px;
+  border-right: 1px dotted rgba(0, 0, 0, 0.4);
+}
+/* line 78, ../scss/style.scss */
+.tooltip .right {
+  font-size: 2em;
+  padding-left: 5px;
+  display: inline-block;
+  float: right;
 }
