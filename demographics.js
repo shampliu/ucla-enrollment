@@ -37,7 +37,7 @@ var arcOver = d3.svg.arc()
   .startAngle(function(d){ return d.startAngle; })
   .endAngle(function(d){ return d.endAngle; })
   .innerRadius(ir)
-  .outerRadius(r + 10);
+  .outerRadius(r + 5);
 
 
 ///////////////////////////////////////////////////////////
@@ -130,20 +130,20 @@ function update(number) {
           .style("opacity", 1)
           .style("display","block")
       })
+      .on("mouseover", function(d) {
+                    d3.select(this).transition()
+                       .duration(300)
+                       .attr("d", arcOver);
+                   })
       .on("mouseout",function(){
         tooltip.html("").style("display","none");
-      });
-    // paths
-    //   .on("mouseover", function(d) {
-    //                 d3.select(this).transition()
-    //                    .duration(1000)
-    //                    .attr("d", arcOver);
-    //                })
-    //       .on("mouseout", function(d) {
-    //                 d3.select(this).transition()
-    //                    .duration(1000)
-    //                    .attr("d", arc);
-    //                });
+        d3.select(this).transition()
+                       .duration(700)
+                       .ease("bounce")
+                       .attr("d", arc);
+        });
+
+                    
 
 
     //DRAW TICK MARK LINES FOR LABELS
