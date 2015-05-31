@@ -1,0 +1,332 @@
+[
+   {
+      "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":110
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":8082
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue": 916
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":2704
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":4222
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":691
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5900
+      }
+    ],
+    "label":"2014"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":116
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7951
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":848
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":2384
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":3864
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":722
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5781
+      }
+    ],
+     "label":"2013"
+   },
+   {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":107
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7777
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":817
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":1945
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":3563
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":639
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5764
+      }
+    ],
+    "label":"2012"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":92
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7798
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":838
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":1101
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":3284
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":633
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":6066
+      }
+    ],
+    "label":"2011"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":77
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7537
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":814
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":612
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":2909
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":654
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5912
+      }
+    ],
+    "label":"2010"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":69
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7934
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":737
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":420
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":2873
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":688
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":6157
+      }
+    ],
+    "label":"2009"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":56
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7897
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":668
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":395
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":2728
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":740
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":6226
+      }
+    ],
+    "label":"2008"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":59
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7756
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":592
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":415
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":2560
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":727
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5957
+      }
+    ],
+    "label":"2007"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":64
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7694
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":520
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":382
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":2551
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":767
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5894
+      }
+    ],
+    "label":"2006"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":64
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7331
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":573
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":290
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":2529
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":870
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5656
+      }
+    ],
+    "label":"2005"
+  }
+]
