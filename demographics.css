@@ -5,6 +5,13 @@ body {
   font-weight: 300;
 }
 
+.legend {
+    font-size: 12px;
+  }
+rect {
+  stroke-width: 2;
+}
+
 #pie-chart {
   background-color: #ffffff;
   /*border: 1px solid gray;*/

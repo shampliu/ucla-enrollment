@@ -10,6 +10,9 @@ tooltip = d3.select("body")
   .append("div") 
   .attr("class", "tooltip");
 
+var legendRectSize = 18;
+var legendSpacing = 4;
+
 
 
 //OBJECTS TO BE POPULATED WITH DATA LATER
@@ -151,7 +154,7 @@ function update(number) {
     lines.enter().append("svg:line")
       .attr("x1", 0)
       .attr("x2", 0)
-      .attr("y1", -r-3)
+      .attr("y1", -r-5)
       .attr("y2", -r-15)
       .attr("stroke", "gray")
       .attr("transform", function(d) {
@@ -258,6 +261,39 @@ function update(number) {
     nameLabels.transition().duration(tweenDuration).attrTween("transform", textTween);
 
     nameLabels.exit().remove();
+
+    ///////////////////////////////////////////////////////////
+    // LEGEND /////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////
+
+    var legend = vis.selectAll('.legend')
+      .data(color.domain())
+      .enter()
+      .append('g')
+      .attr('class', 'legend')
+      .attr('transform', function(d, i) {
+        var height = legendRectSize + legendSpacing;
+        var offset =  height * color.domain().length / 2;
+        // var horz = -2 * legendRectSize;
+        var horz = 0;
+        var vert = i * height - offset + 100;
+        return 'translate(' + horz + ',' + vert + ')';
+      });
+
+    legend.append('rect')
+      .attr('width', legendRectSize)
+      .attr('height', legendRectSize)
+      // .style('fill', function() {
+      //   console.log(color);
+      //   return color; 
+      // })
+      .style('fill', color)
+      .style('stroke', color);
+
+    legend.append('text')
+      .attr('x', legendRectSize + legendSpacing)
+      .attr('y', legendRectSize - legendSpacing)
+      .text(function(d) { return d.data["itemLabel"]; });
     
 }
 
