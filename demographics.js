@@ -2,9 +2,11 @@ $(document).ready( function(){
 var w = 650;
 var h = 400;
 var r = 150;
-var ir = 75;
+var ir = 100;
 var textOffset = 24;
 var tweenDuration = 1050;
+
+
 
 //OBJECTS TO BE POPULATED WITH DATA LATER
 var lines, valueLabels, nameLabels;
@@ -26,6 +28,13 @@ var arc = d3.svg.arc()
   .endAngle(function(d){ return d.endAngle; })
   .innerRadius(ir)
   .outerRadius(r);
+
+var arcOver = d3.svg.arc()
+  .startAngle(function(d){ return d.startAngle; })
+  .endAngle(function(d){ return d.endAngle; })
+  .innerRadius(ir)
+  .outerRadius(r + 50);
+
 
 ///////////////////////////////////////////////////////////
 // GENERATE FAKE DATA /////////////////////////////////////
@@ -95,7 +104,7 @@ function update(number) {
       .attr("fill", function(d, i) { return color(i); })
       .transition()
         .duration(tweenDuration)
-        .attrTween("d", pieTween);
+        .attrTween("d", pieTween)
     paths
       .transition()
         .duration(tweenDuration)
@@ -105,6 +114,17 @@ function update(number) {
         .duration(tweenDuration)
         .attrTween("d", removePieTween)
       .remove();
+    paths
+      .on("mouseover", function(d) {
+                    d3.select(this).transition()
+                       .duration(1000)
+                       .attr("d", arcOver);
+                   })
+          .on("mouseout", function(d) {
+                    d3.select(this).transition()
+                       .duration(1000)
+                       .attr("d", arc);
+                   });
 
     //DRAW TICK MARK LINES FOR LABELS
     lines = label_group.selectAll("line").data(filteredPieData);
