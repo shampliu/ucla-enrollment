@@ -6,6 +6,10 @@ var ir = 100;
 var textOffset = 24;
 var tweenDuration = 1050;
 
+tooltip = d3.select("body")
+  .append("div") 
+  .attr("class", "tooltip");
+
 
 
 //OBJECTS TO BE POPULATED WITH DATA LATER
@@ -33,7 +37,7 @@ var arcOver = d3.svg.arc()
   .startAngle(function(d){ return d.startAngle; })
   .endAngle(function(d){ return d.endAngle; })
   .innerRadius(ir)
-  .outerRadius(r + 50);
+  .outerRadius(r + 10);
 
 
 ///////////////////////////////////////////////////////////
@@ -115,16 +119,32 @@ function update(number) {
         .attrTween("d", removePieTween)
       .remove();
     paths
-      .on("mouseover", function(d) {
-                    d3.select(this).transition()
-                       .duration(1000)
-                       .attr("d", arcOver);
-                   })
-          .on("mouseout", function(d) {
-                    d3.select(this).transition()
-                       .duration(1000)
-                       .attr("d", arc);
-                   });
+      .on("mousemove",function(d){
+        // var mouseVal = d3.mouse(this);
+        this.style.cursor = "pointer"; 
+        tooltip.style("display","none");
+        tooltip
+        .html("age:" + "</br>"+"population:")
+          .style("left", (d3.event.pageX+12) + "px")
+          .style("top", (d3.event.pageY-10) + "px")
+          .style("opacity", 1)
+          .style("display","block")
+      })
+      .on("mouseout",function(){
+        tooltip.html("").style("display","none");
+      });
+    // paths
+    //   .on("mouseover", function(d) {
+    //                 d3.select(this).transition()
+    //                    .duration(1000)
+    //                    .attr("d", arcOver);
+    //                })
+    //       .on("mouseout", function(d) {
+    //                 d3.select(this).transition()
+    //                    .duration(1000)
+    //                    .attr("d", arc);
+    //                });
+
 
     //DRAW TICK MARK LINES FOR LABELS
     lines = label_group.selectAll("line").data(filteredPieData);
@@ -305,9 +325,9 @@ $( "#slider" ).slider({
     max: 9,
     step: 1,
     slide: function( event, ui ) {
-        update(ui.value);
-        console.log(ui.value);
-      }
+      update(ui.value);
+      // console.log(ui.value);
+    }
 })
 
 .each(function() {

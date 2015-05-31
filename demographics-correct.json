@@ -328,5 +328,38 @@
       }
     ],
     "label":"2005"
+  },
+  {
+     "data": [
+      {
+        "itemLabel":"American Indian or Alaskan Native",
+        "itemValue":61
+      },
+      {
+        "itemLabel":"Asian or Pacific Islander",
+        "itemValue":7287
+      },
+      {
+        "itemLabel": "Black Non-Hispanic",
+        "itemValue":591
+      },
+      {
+        "itemLabel":"Foreign",
+        "itemValue":277
+      },
+      {
+        "itemLabel":"Hispanic",
+        "itemValue":2494
+      },
+      {
+        "itemLabel":"Unstated, Unknown, Other",
+        "itemValue":969
+      },
+      {
+        "itemLabel":"White Non-Hispanic",
+        "itemValue":5543
+      }
+    ],
+    "label":"2004"
   }
 ]
