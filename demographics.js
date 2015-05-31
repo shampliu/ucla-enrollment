@@ -124,7 +124,7 @@ function update(number) {
         this.style.cursor = "pointer"; 
         tooltip.style("display","none");
         tooltip
-        .html("age:" + "</br>"+"population:")
+        .html(d.data["itemLabel"] + " : " + d.data["itemValue"])
           .style("left", (d3.event.pageX+12) + "px")
           .style("top", (d3.event.pageY-10) + "px")
           .style("opacity", 1)
