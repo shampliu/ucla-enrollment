@@ -13,19 +13,36 @@
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+  <link rel="stylesheet" href="bower_components/fullpage.js/jquery.fullPage.css">
+  <script src="bower_components/fullpage.js/jquery.fullPage.min.js"></script>
   
 </head>
 
 <body>
-  <h1 text-align="center">UCLA Demographics</h1>
-  <div id="pie-chart"></div>
-  <div id="slidercontainer" style="width:100%;text-align:center">
-  <div id="slider" style="width:600px;margin-left:auto;margin-right:auto;margin-top:20px"></div>
+  <div id="fullpage">
+    <div class="section">
+      <h1>UCLA Demographics</h1>
+      <p>
+        Data Visualization by <a href="mailto:chliu@media.ucla.edu">Chang Liu</a> and <a href="mailto:schung@media.ucla.edu">Stella Chung</a>
+      </p>
+      <div id="pie-chart"></div>
+      <!-- <div id="slidercontainer" style="width:100%;text-align:center"> -->
+      <div id="slider" style="width:600px;margin-left:auto;margin-right:auto;margin-top:20px"></div>
 
-  <div style="position:absolute; right: 10px; bottom: -150px;;">
-    Data Visualization by <a href="mailto:chliu@media.ucla.edu">Chang Liu</a> and <a href="mailto:schung@media.ucla.edu">Stella Chung</a>
+      
+    </div>
+    <div class="section">
+
+    </div>
   </div>
+  
 </div> 
+<script>
+  $(document).ready(function() {
+    $('#fullpage').fullpage();
+  });
+</script>
 </body>
 </html>
 
